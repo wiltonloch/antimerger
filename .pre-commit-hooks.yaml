@@ -10,4 +10,5 @@
     description: Aborts the creation of a merge commit
     entry: antimerger-precommit.sh
     language: script
+    always_run: true
     stages: [pre-commit]
